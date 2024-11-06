@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #9940FE;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+padding-top: 10px;
+}
+
+.logo-img{
+    width: 60px;
+    height: 60px;
+    padding-left: 30px;
+    padding-top: 0px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    cursor: pointer;
+    display: inline;
+   /* float: left;*/
+}
+
+.login{
+    display: flex;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+.login:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.login-img{
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    align-items: baseline;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+.eslogan{
+    margin-top: 30px;
+    color: white;
+}
+
+.login-btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contenido{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.fondo{
+    width: 55%;
+    background-image: url(./media/fondo_piñata.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90vh;
+}
+
+.fondo_piñata{
+    width: 100%;
+    height: 100%;
+}
+
+.piñata{
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: -58px;
+    margin-left: 280px;
+    float: right;
+    rotate: 10deg;
+}
+
+.form-cont{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: center;
+    width: 60%;
+    height: 740;
+    border: 2px solid gray;
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.form h1{
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-stretch: expanded;
+    color: #9940FE;
+    text-align: center;
+}
+
+.form input, .form button{
+    border: 1px solid gray;
+    border-radius: 12px;
+    width: 95%;
+    height: 40px;
+    font-size: 24px;
+}
+
+.form button:hover{
+    cursor:pointer;
+    transition-duration: 0.2s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 1px solid black;
+}
+
+#usuario, #contra{
+    background-color: #D9D9D9;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#continuar{
+    margin-top: 0;
+    background-color: #42A828 ;
+    color: white;
+    margin-bottom: 0;
+}
+
+.linea{
+    width: 95%;
+    display: flex;
+    flex-flow: row;
+    font-size: 24px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #9940FE;
+}
+
+.linea hr{
+    height: 3px;
+    width: 140px;
+    background: #9940FE;
+    margin-bottom: 0;
+}
+
+#registrarse{
+    margin: 15px 0;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#registrarse:hover{
+    text-decoration: underline;
+}
+
